@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System;
+
 
 namespace Places.Models
 {
@@ -10,14 +12,14 @@ namespace Places.Models
       public string Photo { get; set; }
       // Image newImage = Image.FromFile("img_submit.gif");
       public int Id { get; }
-      private static List<Place> _listOfDestinations = new List<Place> {};
+      private static List<Place> _listOfDestinations = new List<Place> { };
       
       public Place(string city, string food)
       {
         City = city;
         Food = food;
         // Photo = photo;
-        // __listOfDestinations.Add(this);
+        _listOfDestinations.Add(this);
         Id = _listOfDestinations.Count;
 
       }
@@ -27,14 +29,14 @@ namespace Places.Models
         return _listOfDestinations;
       }
 
-      // public static void ClearAll()
-      // {
-      //   _listOfDestinations.Clear();
-      // }
+      public static void ClearAll()
+      {
+        _listOfDestinations.Clear();
+      }
 
-      // public static Place Find(int searchId)
-      // {
-      //   return _listOfDestinations[searchId - 1];
-      // }
+      public static Place Find(int searchId)
+      {
+        return _listOfDestinations[searchId - 1];
+      }
     }
 }
