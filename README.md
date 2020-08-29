@@ -1,44 +1,76 @@
-# Application Name
+<h1 align='center'><img width='900' height='450' src='https://coding-assets.s3.us-west-2.amazonaws.com/hero_images/NewFavoriteThings.jpg'><br>
 
-#### Brief description of application, 7/22/20
 
-#### By Cody Fritz, Thomas Glenn, Alison Sadin
+**<h1 align = 'center'>Travel Catalogue**
 
-## Description
 
-## Languages & Technologies Used:
+*<h2 align ='center'>Keep a record of places, pictures and descriptions of the cool places you've visited.*
 
-### Programming Languages & Libraries
 
-- Bootstrap
-- CSS
-- HTML
-- JavaScript
-- jQuery
-- Node
-- WebPack
+<h3 align ='center'>•<a href='#requirements'> Requirements</a> •<a href='#setup'> Setup</a> •<a href='#technologies-used'> Technologies</a> •<a href='#❤️contributors'> Contributors</a> •<a href='#known-bugs'> Bugs</a> •<a href='#protecting-your-data'> Protecting Data</a></h3>
 
-### Operating Systems & Programs
 
-- Git Bash
-- Google Chrome
-- Microsoft Windows 10
-- Visual Studio Code
+<h3 align='center'>This is an .Net Core MVC application allowing the user to Create, Read, Update and Delete travelogue entries</h3>
 
-## Installation
+# **REQUIREMENTS**
 
-1.  Download a web browser, such as Apple Safari, Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
-2.  Navigate to [repository].
-3.  Click the green "Clone or download" button at the right of the screen.
-4.  Select "Download ZIP."
-5.  Use a file extractor or unzip program (such as PeaZip, Unzipper, WinZip, Zipware, or 7-ZIP) to extract the ZIP files onto your computer.
-6.  Open the directory containing the extracted files.
-7.  Open your computer's terminal and navigate to the directory bearing the name of the program and containing the top level subdirectories and files.
-8.  Enter the command "\$ npm install" in the terminal and press "Enter".
-9.  Follow the "Instructions for Obtaining an API Key" section below to obtain your unique API key for [API(s)].
-10. Enter the command "\$ npm run build" in the terminal and press "Enter".
-11. Enter the command "\$ npm run start" in the terminal and press "Enter".
-12. The program should open and run with its user interface accessible in your default web browser.
+_[Visual Studio Code](https://code.visualstudio.com/)_
+
+_[MySql Workbench](https://www.mysql.com/products/workbench/)_
+
+_[.Net Core v2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2)_
+
+# **SETUP**
+
+# **PROTECTING YOUR DATA**
+
+* Step 1: create a .gitignore file in the top level of your project directory. populate the file as shown in step 1 of the image below.
+
+* Step 2: commit that .gitignore file (this prevents your sensitive information like your API key being shown to others). **DO NOT PROCEED UNTIL YOU DO THIS!**
+
+![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image-3.jpg 'Set up instructions')
+
+<br>
+
+# **TECHNOLOGIES USED**
+
+_[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)_
+
+_[Bootstrap](https://getbootstrap.com/)_
+
+_[Asp.Net MVC](https://dotnet.microsoft.com/apps/aspnet/mvc)_
+
+_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_
+
+_[Visual Studio Code](https://code.visualstudio.com/)_
+
+_[MySql Workbench](https://www.mysql.com/products/workbench/)_
+
+<br>
+
+# **KNOWN BUGS**
+
+
+_**No known bugs as of:** 8/29/2020_
+
+<br>
+
+# **INSTALL**
+
+## **INSTALLING WITH DOTNET**
+
+
+with the root project folder open in your code editor, execute the following in your terminal:
+
+``cd ProjectName``
+
+``dotnet restore``
+
+``dotnet build``
+
+``dotnet watch run``
+
+<br>
 
 ### Instructions for Obtaining an API Key
 
@@ -58,20 +90,22 @@
     14. Make sure all files in the program directory and subdirectories are saved.
     15. Repeat this process for any other APIs that are called in the program.
 
-## Known Bugs
+# **❤️Contributors**
 
-No known bugs!
+| [<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/allison-sadin.jpeg' width='160px;'/><br /><sub><b>Allison Sadin</b></sub>](https://www.linkedin.com/in/allison-sadin-pdx/)<br />
 
-## Support and contact details
+| [<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/cody-fritz.jpeg' width='160px;'/><br /><sub><b>Cody Fritz</b></sub>](https://www.linkedin.com/in/zentraxius/)<br />
 
-For support please contact | 
+| [<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/thomas-glenn.jpeg' width='160px;'/><br /><sub><b>Thomas Glenn</b></sub>](https://www.linkedin.com/in/glennergy/)<br />
 
-## Technologies Used
+<br>
 
-HTML | C# | dotnet framework
+dotnet new mvc --framework netcoreapp2.2
 
-### License
+<br>
 
-MIT
+![alt text][logo]
 
-Copyright (c) 2020 **Allison Sadin**
+[logo]: https://img.shields.io/bower/l/bootstrap 'MIT License'
+
+
