@@ -92,11 +92,11 @@ with the root project folder open in your code editor, execute the following in 
 
 # **❤️Contributors**
 
-| [<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/allison-sadin.jpeg' width='160px;'/><br /><sub><b>Allison Sadin</b></sub>](https://www.linkedin.com/in/allison-sadin-pdx/)<br />
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/allison-sadin.jpeg' width='160px;'/><br /><sub><b>Allison Sadin</b></sub>](https://www.linkedin.com/in/allison-sadin-pdx/)<br />
 
-| [<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/cody-fritz.jpeg' width='160px;'/><br /><sub><b>Cody Fritz</b></sub>](https://www.linkedin.com/in/zentraxius/)<br />
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/cody-fritz.jpeg' width='160px;'/><br /><sub><b>Cody Fritz</b></sub>](https://www.linkedin.com/in/zentraxius/)<br />
 
-| [<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/thomas-glenn.jpeg' width='160px;'/><br /><sub><b>Thomas Glenn</b></sub>](https://www.linkedin.com/in/glennergy/)<br />
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/thomas-glenn.jpeg' width='160px;'/><br /><sub><b>Thomas Glenn</b></sub>](https://www.linkedin.com/in/glennergy/)<br />
 
 <br>
 
